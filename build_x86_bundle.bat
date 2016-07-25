@@ -1,0 +1,1 @@
+gradle buildBundle -Dbundle.arch=x86 -q 

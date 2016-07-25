@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <color name="main_blue">#33b6fb</color>
+    <color name="main_black">#444444</color>
+    <color name="main_gray">#999999</color>
+    <color name="main_gray_bg">#f0f0f0</color>
+
+    <!-- window -->
+    <color name="ColorPrimary">#33b6fb</color>
+    <color name="ColorPrimaryDark">#1e2123</color>
+    <!--<color name="ColorAccent">#ffc63c</color>-->
+    <color name="ColorAccent">#33b6fb</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="border_color">#999999</color>
+    <color name="chosed_font_color">#2b3237</color>
+
+    <color name="button_common_color_white">#204691</color>
+    <color name="button_pressed_color_white">#fffff5fd</color>
+    <color name="text_img_size_tip_color">#666666</color>
+
+    <color name="window_background">#ececec</color>
+    <color name="text_button_login">#FFFFFFFF</color>
+    <color name="text_hint_color">#a9a9a9</color>
+    <color name="transparent">#00000000</color>
+    <color name="activity_background">#ececec</color>
+    <color name="light_gray">#ddd</color>
+    <color name="light_line_cocor">#ddd7d7d7</color>
+    <color name="circle_light_blue">#7ECCFE</color>
+
+    <!-- dialog -->
+    <color name="dialog_background">#ffffff</color>
+    <color name="dialog_title">#444444</color>
+    <color name="dialog_content">#6e6e6e</color>
+    <color name="dialog_cancel_normal">#464646</color>
+    <color name="dialog_cancel_pressed">#757d8d</color>
+    <color name="dialog_ok_normal">#27c5c0</color>
+    <color name="dialog_ok_pressed">#4f99f5</color>
+    <color name="dialog_device_type_line">#dcdcdc</color>
+    <color name="dialog_device_type_ok_pressed">#81cfeb</color>
+    <color name="dialog_version_back_color">#ff9000</color>
+
+    <!-- for v21 -->
+    <color name="btn_green_common">#1eb86b</color>
+    <color name="btn_blue_common">#33b6fb</color>
+    <color name="btn_blue_press">#30a9ff</color>
+    <color name="btn_gray_common">#7c99ab</color>
+    <color name="btn_gray_press">#517a94</color>
+
+    <!-- toolbar -->
+    <color name="toolbar_title">#ffffff</color>
+    <color name="toolbar_background_color">#2b3237</color>
+    <color name="toolbar_btn_press_background_color">#1e2123</color>
+
+    <color name="lineColor">#d7d7d7</color>
+
+    <color name="tab_normal_text_color">#a1a1a1</color>
+    <color name="virtrul_line_color">#c7c7c7</color>
+
+    <!-- list -->
+    <color name="list_normal_color">#ffffff</color>
+    <color name="list_pressed_color">#eaeaea</color>
+    <color name="list_light_middle_color">#e5e5e5</color>
+
+    <!-- 网点信息 -->
+    <color name="focus_color">#33b6fb</color>
+    <color name="dim_color">#b5b5b5</color>
+    <color name="middle_color">#6e6e6e</color>
+    <color name="goods_tab_text_color_select">#2e323a</color>
+    <color name="goods_tab_text_color_normal">#959ba7</color>
+    <color name="tab_indicator_color">#27c5c0</color>
+    <color name="font_select_color">#33b6fb</color>
+    <color name="font_focus_color">#ff6600</color>
+    <color name="sub_title_color">#999999</color>
+
+    <color name="edit_text_layout">#444444</color>
+    <color name="edit_text_layout_hit">#999999</color>
+    <color name="point_name_color">#444</color>
+    <color name="point_no">#6e6e6e</color>
+
+    <!-- 日历 -->
+    <color name="cal_item_color1">@color/ColorPrimary</color>
+    <color name="cal_item_color2">@android:color/holo_orange_light</color>
+    <color name="cal_item_color3">@android:color/holo_green_dark</color>
+    <color name="cal_item_color4">#ff3366</color>
+    <color name="cal_item_color5">@color/button_common_color_white</color>
+    <color name="cal_item_color6">#e1da59</color>
+
+    <!-- 数据统计 -->
+    <color name="data_blue_dim">#d4edff</color>
+    <color name="data_blue_dark">#6dbef7</color>
+    <color name="data_text_color_value">#444</color>
+    <color name="data_text_color_index">#999</color>
+    <color name="data_order_report_title_color">#484848</color>
+    <color name="data_order_report_cont_color">#999999</color>
+
+    <color name="sky_background">#228FC1</color>
+
+    <!--  -->
+    <color name="msg_emote_divider">#ffa1a1a1</color>
+    <!-- menudraw -->
+    <color name="md__defaultBackground">#FF555555</color>
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+
+    <color name="user_login_hint_color">#b5b5b5</color>
+    <color name="user_login_font_color">#444</color>
+
+    <color name="rank_compare_up_color">#ff2525</color>
+    <color name="rank_compare_down_color">#38bb00</color>
+    <color name="rank_list_item">#374147</color>
+    <color name="rank_detail_item_bg">#f0f0f0</color>
+    <color name="rank_no_1">#e15a5a</color>
+    <color name="rank_no_2">#f4b126</color>
+    <color name="rank_no_3">#00c7d3</color>
+    <color name="rank_no_4">#5495dd</color>
+    <color name="rank_no_5">#9061f0</color>
+    <color name="rank_null">#00ffffff</color>
+
+    <color name="sign_back_color">#ea5f61</color>
+
+    <!-- 下拉刷新listview -->
+    <color name="p2refresh_full_transparent">#00000000</color>
+    <color name="p2refresh_weibo_source">#b4b4b4</color>
+    <color name="p2refresh_gold">#b89766</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="flamenco">#E48D4B</color>
+    <color name="select_buy_item">#f0f0f0</color>
+</resources>
