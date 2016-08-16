@@ -1,1 +1,1 @@
-include ':app', ':app.member'
+include ':app', ':app.member', ':feedbackSdk'

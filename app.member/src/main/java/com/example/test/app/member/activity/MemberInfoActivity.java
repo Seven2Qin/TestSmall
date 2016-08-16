@@ -15,12 +15,15 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.alibaba.sdk.android.feedback.impl.FeedbackAPI;
 import com.example.test.app.member.R;
 import com.example.test.app.member.utils.FileUtil;
 import com.example.test.app.member.widget.SelectPicPopupWindow;
 import com.yalantis.ucrop.UCrop;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -46,6 +49,10 @@ public class MemberInfoActivity extends Activity implements View.OnClickListener
     ImageView mImgHead;
 
 
+    //用户反馈自定义参数
+    private Map<String, String> mapFeedback;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +69,17 @@ public class MemberInfoActivity extends Activity implements View.OnClickListener
 
     }
 
+    private void userFeedback() {
+        if (mapFeedback == null) {
+            mapFeedback = new HashMap<String, String>();
+            mapFeedback.put("themeColor", "#2b3237");
+            mapFeedback.put("enableAudio", "1");
+        }
+        FeedbackAPI.openFeedbackActivity(this);
+        //如果发生错误，请查看logcat日志
+        FeedbackAPI.setUICustomInfo(mapFeedback);
+    }
+
     @OnClick({
             R.id.btn_next,
             R.id.imgview_head
@@ -70,6 +88,7 @@ public class MemberInfoActivity extends Activity implements View.OnClickListener
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_next:
+                userFeedback();
                 //startActivity(new Intent(MemberInfoActivity.this, MemberAccoutActivity.class));
                 break;
             case R.id.imgview_head:
